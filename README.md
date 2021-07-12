@@ -41,12 +41,15 @@ Install the heroku CLI
 
 Use Git to clone source code to your local machine
 
-      $ heroku git:clone -a name_of_the_model
+     $ heroku git:clone -a name_of_the_model
 
 Deploy your changes
-$ git add .
-$ git commit -am "make it better"
-$ git push heroku master
+ 
+    $ git add .
+
+    $ git commit -am "make it better"
+  
+    $ git push heroku master
 
 Note: you will also need a Procfile and requirements text
 
